@@ -2,6 +2,8 @@
 
 Este es mi portafolio web adaptado con Bootstrap. Aquí muestro mis proyectos y habilidades. 
 
+Link de la web: [Ver la web](https://matiasozores.github.io/portafolio-web/)
+
 ## Versiones / Changelog
 
 ### v2.0 (2025-09-04)
@@ -13,3 +15,4 @@ Este es mi portafolio web adaptado con Bootstrap. Aquí muestro mis proyectos y 
 - Adapté el diseño a Bootstrap
 - Mejora de la sección de proyectos
 - Diseño responsive para móviles y tablets
+

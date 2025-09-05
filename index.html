@@ -13,7 +13,7 @@
 <body>
 
   <!-- Botón CV flotante -->
-  <a href="cv/MATIAS_OZORES.pdf" download="MATIAS_OZORES.pdf" class="btn-cv">
+  <a href="resources/MATIAS OZORES.pdf" download="MATIAS_OZORES.pdf" class="btn-cv">
     <span>⬇</span> Descargar CV
   </a>
 
@@ -26,52 +26,96 @@
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="container py-5">
-    <h2 class="section-title text-center mb-5">El arte del aprendizaje,<br><span>mi estilo de vida</span></h2>
+  <section id="about" class="container py-5 min-vh-100 d-flex flex-column justify-content-center">
+    <h2 class="section-title text-center mb-5">
+      Aprender y aplicar,<br><span>mi enfoque personal</span>
+    </h2>
     <div class="row g-4">
       <div class="col-md-4">
         <div class="card-custom">
           <h3>Formación técnica</h3>
-          <p>Soy Técnico en Computación y continúo mi formación académica. Combinando este aprendizaje con mi enfoque autodidacta.</p>
+          <p>
+            Soy Técnico en Computación y actualmente sigo mis estudios en la UBA en la carrera de Ingeniería en Informática. 
+            Me interesa aplicar lo que aprendo dentro del sistema tradicional y de manera autodidacta para desarrollar proyectos que me permitan crecer tanto en lo académico como en lo profesional.
+          </p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card-custom">
-          <h3>Objetivo de vida</h3>
-          <p>Desarrollar y dirigir proyectos que generen impacto positivo más allá del dinero.</p>
+          <h3>Objetivo largoplacista</h3>
+          <p>Desarrollar y dirigir proyectos que generen un gran valor en la vida de las personas. Con mi formación, constancia y disciplina estoy dispuesto a trabajar de manera intensa pero inteligente para lograr mis objetivos.</p>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card-custom">
           <h3>Enfoque autodidacta</h3>
-          <p>Desarrollo mi propia metodología de aprendizaje, aplicando lo que aprendo en problemas reales.</p>
+          <p>Siempre me interesó poder mejorar la manera en la que aprendo porque una de las cosas que consideró mas importante es el tiempo, y si se logra un estudio efectivo se pueden lograr mejores resultados. Es algo que nunca voy a parar de perseguir.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROYECTOS -->
-  <section id="projects" class="py-5 text-center">
+  <!-- CERTIFICADOS -->
+  <section id="certificates" class="py-5 text-center min-vh-100 d-flex flex-column justify-content-center">
     <div class="container">
-      <h2 class="section-title mb-5">Proyectos destacados</h2>
-      <div class="row g-4">
-        <div class="col-12">
-        <!--
-            <div class="card-custom project-card">
-                <img src="proyecto1.jpg" class="img-fluid rounded mb-3" alt="Proyecto 1">
-                <h3>Campus Virtual de Programación</h3>
-                <p>Plataforma destinada para organizar una serie de contenidos en un solo lugar. Incluye cursos, ejercicios prácticos y seguimiento.</p>
-                <a href="https://matiasozores.github.io/campus-virtual-programacion/" target="_blank" class="btn-main">Ver proyecto</a>
+      <h2 class="section-title mb-5">Titulos y Certificados</h2>
+      <p class="mb-4">
+        A lo largo de mi formación he obtenido diversos certificados que avalan mis conocimientos en áreas clave de la informática y el desarrollo de software. Estos títulos reflejan mi compromiso con el aprendizaje continuo y la excelencia profesional.
+      </p>
+      <div id="certificatesCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <img src="images/OIA_JURISDICCIONAL.png" class="d-block img-fluid certificate-img" alt="Certificado 1">
             </div>
-        -->
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="images/DesarrolloWeb1.png" class="d-block img-fluid certificate-img" alt="Certificado 2">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="images/DesarrolloWeb2.png" class="d-block img-fluid certificate-img" alt="Certificado 2">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="images/API_REST.png" class="d-block img-fluid certificate-img" alt="Certificado 2">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="images/BBDD.png" class="d-block img-fluid certificate-img" alt="Certificado 2">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <img src="images/IA.png" class="d-block img-fluid certificate-img" alt="Certificado 2">
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#certificatesCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#certificatesCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
+      <p class="mt-4">
+        Cada certificado representa un paso más en mi camino profesional y mi dedicación por mantenerme actualizado en las tecnologías más relevantes del sector.
+      </p>
     </div>
   </section>
 
   <!-- TECNOLOGÍAS -->
-<!-- TECNOLOGÍAS -->
-<section id="tech" class="py-5">
+  <section id="tech" class="py-5">
     <div class="container">
       <h2 class="section-title text-center mb-5">Tecnologías con las que trabajo</h2>
       <div class="row g-4 text-center">
@@ -116,20 +160,23 @@
   </section>
   
   <!-- CONTACTO -->
-  <section id="contact" class="py-5 text-center">
+  <section id="contact" class="py-5 text-center min-vh-100 d-flex flex-column justify-content-center">
     <div class="container">
-      <h2 class="section-title mb-5">Contactame</h2>
+      <h2 class="section-title mb-5">Busco oportunidades para crecer es por eso que estoy abierto a nuevas ideas y proyectos, contactame y vamos a crear algo increible juntos.</h2>
       <div class="d-flex justify-content-center gap-5 flex-wrap">
         <a href="https://github.com/matiasozores" target="_blank" class="social-link">GitHub</a>
         <a href="https://www.linkedin.com/in/mat%C3%ADas-ozores-57795030a/" target="_blank" class="social-link">LinkedIn</a>
         <a href="mailto:matias.alejandro.ozores@gmail.com" class="social-link">Email</a>
       </div>
+      <p class="mt-4">
+        Respondo a la brevedad y siempre estoy dispuesto a escuchar nuevas ideas o propuestas.
+      </p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="text-center py-3">
-    <p>© 2025 Matías Ozores. Todos los derechos reservados.</p>
+    <p> 2025 Matías Ozores. Todos los derechos reservados.</p>
   </footer>
 
   <!-- Bootstrap JS -->
